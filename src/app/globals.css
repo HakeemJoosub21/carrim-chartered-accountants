@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream-50 text-brand font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-6 py-20 md:px-10 lg:px-16 xl:px-24 lg:py-24;
+  }
+
+  .section-label {
+    @apply text-xs font-semibold uppercase tracking-ultra text-gold;
+  }
+
+  .section-heading {
+    @apply font-serif text-3xl md:text-4xl lg:text-[2.75rem] text-brand leading-[1.15] tracking-tight;
+  }
+
+  .section-heading-light {
+    @apply font-serif text-3xl md:text-4xl lg:text-[2.75rem] text-white leading-[1.15] tracking-tight;
+  }
+
+  .gold-underline {
+    @apply relative after:absolute after:bottom-0 after:left-0 after:h-px after:w-full after:bg-gold after:origin-left after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100;
+  }
+
+  .gold-underline-active {
+    @apply relative after:absolute after:bottom-0 after:left-0 after:h-px after:w-full after:bg-gold;
+  }
+
+  .card-luxury {
+    @apply bg-white rounded-xl p-7 md:p-8 shadow-card border border-cream-200/80 transition-all duration-300 hover:shadow-elevated hover:-translate-y-0.5;
+  }
+
+  .container-wide {
+    @apply mx-auto max-w-[1280px];
+  }
+}
