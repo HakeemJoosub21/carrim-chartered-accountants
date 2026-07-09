@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Mail, Phone, Linkedin, Instagram } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import Logo from "./Logo";
 import { navLinks, contactInfo, homeServices } from "@/lib/constants";
 
@@ -69,30 +69,6 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-
-            <h4 className="mb-4 mt-10 text-xs font-bold uppercase tracking-widest text-gold">
-              Let&apos;s Connect
-            </h4>
-            <div className="flex gap-4">
-              <a
-                href={contactInfo.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-white transition-colors hover:border-gold hover:text-gold"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="h-4 w-4" />
-              </a>
-              <a
-                href={contactInfo.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-white transition-colors hover:border-gold hover:text-gold"
-                aria-label="Instagram"
-              >
-                <Instagram className="h-4 w-4" />
-              </a>
-            </div>
           </div>
         </div>
 

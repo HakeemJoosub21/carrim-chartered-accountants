@@ -25,7 +25,7 @@ export default function ServicesPage() {
     <>
       <PageHeader
         label="Our Services"
-        title="Solutions Tailored to You"
+        title="Solutions Tailored To You"
         subtitle="Accounting, tax, advisory, and compliance — clearly structured for your needs."
       />
 

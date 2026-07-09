@@ -7,7 +7,7 @@ export const navLinks = [
 ] as const;
 
 export const contactInfo = {
-  email: "kulsumcarrim@cca.com",
+  email: "kulsumcarrim@carrimca.com",
   phone: "+27 82 893 5876",
   whatsapp: "27828935876",
   linkedin: "https://linkedin.com",
@@ -38,11 +38,11 @@ export const founder = {
     },
   ],
   extendedBio: [
-    "Kulsum is a qualified Chartered Accountant (SA), SAICA Assessor, and qualified Training Instructor with over 12 years of experience at a leading Big Four professional services firm.",
+    "Kulsum is a qualified Chartered Accountant (SA), SAICA Assessor, and qualified training instructor with over 12 years of experience at a leading Big Four professional services firm.",
     "Throughout her career, she has worked with a diverse portfolio of clients across a wide range of industries, including entertainment, hospitality, pharmaceuticals, telecommunications, logistics, agriculture, education, non-profit organisations, owner-managed businesses, and many others. This breadth of experience has provided her with valuable insight into the unique opportunities and challenges faced by businesses of all sizes.",
     "As part of her professional development, Kulsum was selected for an international secondment to Belgium, where she spent 3.5 months working within a Big Four firm. This experience provided valuable exposure to international business environments, cross-cultural collaboration, and global best practices, further broadening her professional perspective.",
     "Beyond technical accounting and audit expertise, Kulsum has built a strong reputation as a leader, mentor, and trusted business advisor. She has led and developed high-performing teams, managed complex client portfolios, overseen resource planning and staffing, coordinated multiple deadlines and engagements, and played an active role within leadership structures. Her experience extends beyond financial reporting and compliance to include people development, operational management, strategic planning, and business growth.",
-    "As a qualified SAICA Assessor and Training Instructor, Kulsum is passionate about developing future professionals and empowering individuals and businesses through knowledge, guidance, and practical solutions.",
+    "As a qualified SAICA Assessor and training instructor, Kulsum is passionate about developing future professionals and empowering individuals and businesses through knowledge, guidance, and practical solutions.",
     "Through Carrim Chartered Accountants, she combines technical excellence with a personalised approach, helping clients navigate their financial obligations with confidence while supporting their long-term business success.",
   ],
 };
@@ -240,6 +240,6 @@ export const beyondTheNumbersTopics = [
       "Purpose-driven success",
     ],
     image: "/images/image8.png",
-    imageClassName: "object-cover object-center",
+    imageClassName: "object-cover object-[28%_22%]",
   },
 ];

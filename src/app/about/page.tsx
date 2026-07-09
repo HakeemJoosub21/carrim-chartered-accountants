@@ -60,7 +60,7 @@ export default function AboutPage() {
                 <p>
                   We combine the rigour of chartered accountancy with a
                   boutique, client-first approach — ensuring every business we
-                  serve receives the attention, expertise, and strategic
+                  serve, receives the attention, expertise, and strategic
                   guidance it deserves.
                 </p>
               </div>

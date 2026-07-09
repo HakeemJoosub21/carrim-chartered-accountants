@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Button from "./Button";
 import SectionLabel from "./SectionLabel";
 import { beyondTheNumbersTopics } from "@/lib/constants";
+import { cn } from "@/lib/utils";
 
 export default function InsightsPreview() {
   return (
@@ -57,7 +58,10 @@ export default function InsightsPreview() {
                       src={topic.image}
                       alt={topic.title}
                       fill
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      className={cn(
+                        topic.imageClassName,
+                        "transition-transform duration-500 group-hover:scale-105"
+                      )}
                       sizes="(max-width: 768px) 50vw, 200px"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-brand/70 via-brand/20 to-transparent" />

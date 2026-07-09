@@ -31,7 +31,7 @@ export default function ServicesPreview() {
           className="mb-14 text-center"
         >
           <SectionLabel className="mb-4">Our Services</SectionLabel>
-          <h2 className="section-heading">Solutions Tailored to You</h2>
+          <h2 className="section-heading">Solutions Tailored To You</h2>
           <p className="mx-auto mt-4 max-w-2xl text-brand/65">
             Clear, practical support across accounting, tax, advisory, and
             compliance — designed for growing businesses and ambitious
